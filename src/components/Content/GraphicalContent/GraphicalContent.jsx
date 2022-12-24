@@ -51,13 +51,10 @@ function GraphicalContent() {
     const [chartList, setChartList] = useState([])
     useEffect(() => {
         axios.get("http://127.0.0.1:8001/api/startList").then(res => {
-            console.log(res.data, "response")
             setStartList(res.data.data)
         })
         axios.get("http://127.0.0.1:8001/api/charts").then(res => {
-            console.log(res.data, "response")
-            setChartList(res.data.data.monthly
-            )
+            setChartList(res.data.data.monthly)
         })
     }, [])
 
@@ -158,7 +155,7 @@ function GraphicalContent() {
                                 </tr>
                             </thead>
                             <tbody className='border-gray-100'>
-                                {startList.map((item, index) => {
+                                {startList.map((item) => {
                                     return (<tr class="border-b last:border-none border-gray-100">
                                         <td class="px-10 py-2 whitespace-nowrap text-sm font-medium text-gray-700">
                                             {item.title}

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCamera, faDashboard, faFire, faKiwiBird, faMobile, faPager, faPerson, faPlateWheat, faRoute, faUndoAlt, faUpload } from '@fortawesome/free-solid-svg-icons'
+import { faCamera, faDashboard, faFire, faMobile, faPager, faPerson, faPlateWheat, faRoute, faUndoAlt, faUpload } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
 function SideBar() {
