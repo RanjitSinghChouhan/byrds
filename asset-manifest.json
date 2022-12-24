@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/byrds/static/css/main.efa925ee.css",
-    "main.js": "/byrds/static/js/main.64f90b0d.js",
+    "main.js": "/byrds/static/js/main.da22268a.js",
     "static/js/787.b3775099.chunk.js": "/byrds/static/js/787.b3775099.chunk.js",
+    "static/media/hummingbird.png": "/byrds/static/media/hummingbird.588a4511eae7f487fc5f.png",
     "index.html": "/byrds/index.html",
     "main.efa925ee.css.map": "/byrds/static/css/main.efa925ee.css.map",
-    "main.64f90b0d.js.map": "/byrds/static/js/main.64f90b0d.js.map",
+    "main.da22268a.js.map": "/byrds/static/js/main.da22268a.js.map",
     "787.b3775099.chunk.js.map": "/byrds/static/js/787.b3775099.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efa925ee.css",
-    "static/js/main.64f90b0d.js"
+    "static/js/main.da22268a.js"
   ]
 }
