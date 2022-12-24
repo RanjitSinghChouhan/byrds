@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCamera, faDashboard, faFire, faMobile, faPager, faPerson, faPlateWheat, faRoute, faUndoAlt, faUpload } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
+import birdIcon from '../../assets/hummingbird.png'
 
 function SideBar() {
     return (
         <div className='bg-slate-50'>
             <div className='w-2/5 my-0.5 mx-auto p-2'>
-                <img className='bg-slate-50' src="/hummingbird.png" alt="" />
+                <img className='bg-slate-50' src={birdIcon} alt="" />
             </div>
             <div className='grid grid-cols-2 gap-4 place-items-center px-8 py-4'>
                 <div className='w-2/4'>
